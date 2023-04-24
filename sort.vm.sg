@@ -1,0 +1,6733 @@
+fun
+   mov 3
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   mov 2
+   res
+   mov -2
+   mov 3
+   deref
+   sav
+   ref
+   mov -3
+   res
+   mov 2
+   sav
+   mov -2
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   alloc
+   sav
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 0
+   deref
+   sav
+   ref
+   mov 2
+   deref
+   mov 2
+   res
+   mov -2
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   mov 1
+   sub
+   mov -1
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   set -1
+   add
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   res
+   gez
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   res
+   mov -4
+   while
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      get stdin.int #0
+      deref
+      sav
+      ref
+      mov 2
+      deref
+      mov 2
+      res
+      mov -2
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      mov 1
+      res
+      mov -1
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 5
+      sav
+      mov -5
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      set 1
+      mov 6
+      sav
+      mov -6
+      mov 5
+      res
+      mov -5
+      mov 6
+      mul
+      mov -6
+      mov 5
+      sav
+      mov -5
+      mov 4
+      res
+      mov -4
+      mov 5
+      index
+      mov -5
+      mov 6
+      sav
+      mov -6
+      mov 6
+      res
+      mov -6
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      deref
+      sav
+      ref
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 2
+      res
+      mov -2
+      mov 4
+      sav
+      mov -4
+      set 2
+      mov 5
+      sav
+      mov -5
+      mov 4
+      res
+      mov -4
+      mov 5
+      index
+      mov -5
+      mov 6
+      sav
+      mov -6
+      mov 6
+      res
+      mov -6
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      deref
+      sav
+      ref
+      mov 2
+      deref
+      mov 3
+      res
+      mov -3
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      deref
+      res
+      ref
+      mov -4
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      deref
+      sav
+      ref
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      add
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 2
+      deref
+      mov 3
+      res
+      mov -3
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      deref
+      sav
+      ref
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 2
+      deref
+      mov 2
+      res
+      mov -2
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      res
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      res
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      mov 1
+      sub
+      mov -1
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      set -1
+      add
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      res
+      gez
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      res
+      mov -4
+   end
+   mov 2
+   deref
+   mov 1
+   res
+   mov -1
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 2
+   deref
+   sav
+   ref
+   mov -2
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 3
+   deref
+   res
+   ref
+   mov -3
+   mov 2
+   sav
+   mov -2
+   mov 3
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   ret
+end
+fun
+   mov 3
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   mov 2
+   res
+   mov -2
+   mov 3
+   deref
+   sav
+   ref
+   mov -3
+   res
+   mov 2
+   sav
+   mov -2
+   mov 2
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   mov 1
+   sub
+   mov -1
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   set -1
+   add
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   res
+   gez
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   res
+   mov -4
+   if
+      mov 2
+      deref
+      mov -2
+      res
+      mov 2
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      res
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 2
+      mov 4
+      sav
+      mov -4
+      mov 4
+      res
+      mov -4
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      res
+      mov -4
+      call
+      mov 2
+      deref
+      mov -2
+      res
+      mov 2
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      mov 1
+      res
+      mov -1
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      deref
+      sav
+      ref
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      sub
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      set 1
+      mov 4
+      sav
+      mov -4
+      mov 4
+      res
+      mov -4
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      res
+      mov -4
+      call
+      mov 2
+      deref
+      mov -2
+      res
+      mov 2
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      mov 1
+      res
+      mov -1
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      deref
+      sav
+      ref
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      add
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 2
+      deref
+      res
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      mov 4
+      sav
+      mov -4
+      mov 4
+      res
+      mov -4
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      res
+      mov -4
+      call
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+   else
+   end
+   deref
+   mov -3
+   where
+   mov 3
+   ref
+   sav
+   mov 3
+   deref
+   res
+   ref
+   mov -3
+   mov 2
+   sav
+   mov -2
+   mov 3
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   ret
+end
+fun
+   mov 3
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   mov 2
+   res
+   mov -2
+   mov 3
+   deref
+   sav
+   ref
+   mov -3
+   res
+   mov 2
+   sav
+   mov -2
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   mov -2
+   res
+   mov 2
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 5
+   sav
+   mov -5
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   set 1
+   mov 6
+   sav
+   mov -6
+   mov 5
+   res
+   mov -5
+   mov 6
+   mul
+   mov -6
+   mov 5
+   sav
+   mov -5
+   mov 4
+   res
+   mov -4
+   mov 5
+   index
+   mov -5
+   mov 6
+   sav
+   mov -6
+   mov 6
+   deref
+   res
+   ref
+   mov -6
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 1
+   deref
+   sav
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   sub
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 2
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   mov 3
+   res
+   mov -3
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   mov 1
+   sub
+   mov -1
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   set -1
+   add
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   res
+   gez
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   res
+   mov -4
+   while
+      mov 2
+      deref
+      mov 3
+      res
+      mov -3
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      mov -2
+      res
+      mov 2
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 5
+      sav
+      mov -5
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      set 1
+      mov 6
+      sav
+      mov -6
+      mov 5
+      res
+      mov -5
+      mov 6
+      mul
+      mov -6
+      mov 5
+      sav
+      mov -5
+      mov 4
+      res
+      mov -4
+      mov 5
+      index
+      mov -5
+      mov 6
+      sav
+      mov -6
+      mov 6
+      deref
+      res
+      ref
+      mov -6
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      mov 1
+      res
+      mov -1
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      res
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      mov 1
+      sub
+      mov -1
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      res
+      gez
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      res
+      mov -4
+      if
+         mov 2
+         res
+         mov -2
+         mov 4
+         sav
+         mov -4
+         set 2
+         mov 5
+         sav
+         mov -5
+         mov 4
+         res
+         mov -4
+         mov 5
+         index
+         mov -5
+         mov 6
+         sav
+         mov -6
+         mov 6
+         res
+         mov -6
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         set 1
+         deref
+         sav
+         ref
+         mov 2
+         deref
+         mov 4
+         res
+         mov -4
+         ref
+         mov -2
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         deref
+         res
+         ref
+         mov 4
+         sav
+         mov -4
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         mov 4
+         deref
+         res
+         ref
+         mov -4
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         set 1
+         deref
+         sav
+         ref
+         deref
+         mov -1
+         res
+         mov 1
+         ref
+         deref
+         add
+         ref
+         deref
+         mov -1
+         sav
+         mov 1
+         ref
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         mov 2
+         deref
+         mov 4
+         res
+         mov -4
+         ref
+         mov -2
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         deref
+         res
+         ref
+         mov 4
+         sav
+         mov -4
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         deref
+         res
+         ref
+         mov 4
+         deref
+         sav
+         ref
+         mov -4
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         mov 2
+         deref
+         mov 3
+         res
+         mov -3
+         ref
+         mov -2
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         mov 2
+         deref
+         mov -2
+         res
+         mov 2
+         ref
+         mov -2
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         deref
+         res
+         ref
+         mov 4
+         sav
+         mov -4
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         deref
+         res
+         ref
+         mov 5
+         sav
+         mov -5
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         set 1
+         mov 6
+         sav
+         mov -6
+         mov 5
+         res
+         mov -5
+         mov 6
+         mul
+         mov -6
+         mov 5
+         sav
+         mov -5
+         mov 4
+         res
+         mov -4
+         mov 5
+         index
+         mov -5
+         mov 6
+         sav
+         mov -6
+         mov 6
+         res
+         mov -6
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         mov 2
+         deref
+         mov 2
+         res
+         mov -2
+         ref
+         mov -2
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         mov 2
+         deref
+         mov -2
+         res
+         mov 2
+         ref
+         mov -2
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         deref
+         res
+         ref
+         mov 4
+         sav
+         mov -4
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         deref
+         res
+         ref
+         mov 5
+         sav
+         mov -5
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         set 1
+         mov 6
+         sav
+         mov -6
+         mov 5
+         res
+         mov -5
+         mov 6
+         mul
+         mov -6
+         mov 5
+         sav
+         mov -5
+         mov 4
+         res
+         mov -4
+         mov 5
+         index
+         mov -5
+         mov 6
+         sav
+         mov -6
+         mov 6
+         res
+         mov -6
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         set 3
+         mov 4
+         sav
+         mov -4
+         mov 4
+         res
+         mov -4
+         deref
+         mov 1
+         sav
+         mov -1
+         ref
+         deref
+         mov 1
+         where
+         mov -1
+         ref
+         sav
+         deref
+         res
+         ref
+         mov 4
+         sav
+         mov -4
+         deref
+         mov -1
+         where
+         mov 1
+         ref
+         sav
+         mov 4
+         res
+         mov -4
+         call
+      else
+      end
+      mov 2
+      res
+      mov -2
+      mov 4
+      sav
+      mov -4
+      set 3
+      mov 5
+      sav
+      mov -5
+      mov 4
+      res
+      mov -4
+      mov 5
+      index
+      mov -5
+      mov 6
+      sav
+      mov -6
+      mov 6
+      res
+      mov -6
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      deref
+      sav
+      ref
+      mov 2
+      deref
+      mov 4
+      res
+      mov -4
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      deref
+      res
+      ref
+      mov -4
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      deref
+      sav
+      ref
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      add
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 2
+      deref
+      mov 4
+      res
+      mov -4
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      deref
+      sav
+      ref
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 2
+      deref
+      mov 3
+      res
+      mov -3
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      res
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      res
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      mov 1
+      sub
+      mov -1
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      set -1
+      add
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      res
+      gez
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      res
+      mov -4
+   end
+   mov 2
+   deref
+   mov 2
+   res
+   mov -2
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 1
+   deref
+   sav
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   add
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 2
+   deref
+   mov -2
+   res
+   mov 2
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 5
+   sav
+   mov -5
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   set 1
+   mov 6
+   sav
+   mov -6
+   mov 5
+   res
+   mov -5
+   mov 6
+   mul
+   mov -6
+   mov 5
+   sav
+   mov -5
+   mov 4
+   res
+   mov -4
+   mov 5
+   index
+   mov -5
+   mov 6
+   sav
+   mov -6
+   mov 6
+   res
+   mov -6
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   mov -2
+   res
+   mov 2
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 5
+   sav
+   mov -5
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   set 1
+   mov 6
+   sav
+   mov -6
+   mov 5
+   res
+   mov -5
+   mov 6
+   mul
+   mov -6
+   mov 5
+   sav
+   mov -5
+   mov 4
+   res
+   mov -4
+   mov 5
+   index
+   mov -5
+   mov 6
+   sav
+   mov -6
+   mov 6
+   res
+   mov -6
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 3
+   mov 4
+   sav
+   mov -4
+   mov 4
+   res
+   mov -4
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   res
+   mov -4
+   call
+   mov 2
+   deref
+   mov 2
+   res
+   mov -2
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 1
+   deref
+   sav
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   add
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 2
+   deref
+   mov -2
+   sav
+   mov 2
+   ref
+   mov -2
+   deref
+   mov -3
+   where
+   mov 3
+   ref
+   sav
+   mov 3
+   deref
+   res
+   ref
+   mov -3
+   mov 2
+   sav
+   mov -2
+   mov 3
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   ret
+end
+fun
+   mov 3
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   mov 2
+   res
+   mov -2
+   mov 3
+   deref
+   sav
+   ref
+   mov -3
+   res
+   mov 2
+   sav
+   mov -2
+   mov 2
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   deref
+   res
+   ref
+   mov -4
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   deref
+   res
+   ref
+   mov -4
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   deref
+   sav
+   ref
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 2
+   deref
+   mov 1
+   res
+   mov -1
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   deref
+   sav
+   ref
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   mov -2
+   where
+   mov 2
+   ref
+   sav
+   mov 3
+   deref
+   res
+   ref
+   mov -3
+   mov 2
+   sav
+   mov -2
+   mov 3
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   ret
+end
+mov 9
+where
+mov -9
+mov 3
+sav
+mov -3
+mov 3
+deref
+mov 64
+where
+mov -64
+ref
+mov -3
+sav
+res
+mov 2
+sav
+mov -2
+deref
+mov 1
+where
+mov -1
+ref
+sav
+get stdin.int #0
+deref
+sav
+ref
+mov 2
+deref
+mov 1
+res
+mov -1
+ref
+mov -2
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 0
+mov 4
+sav
+mov -4
+mov 4
+res
+mov -4
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+deref
+res
+ref
+mov 4
+sav
+mov -4
+deref
+mov -1
+where
+mov 1
+ref
+sav
+mov 4
+res
+mov -4
+call
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 0
+deref
+sav
+ref
+mov 2
+deref
+mov 2
+res
+mov -2
+ref
+mov -2
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 0
+deref
+sav
+ref
+mov 2
+deref
+mov 1
+res
+mov -1
+ref
+mov -2
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+sub
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+set 1
+mov 4
+sav
+mov -4
+mov 4
+res
+mov -4
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+deref
+res
+ref
+mov 4
+sav
+mov -4
+deref
+mov -1
+where
+mov 1
+ref
+sav
+mov 4
+res
+mov -4
+call
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov 1
+where
+mov -1
+ref
+sav
+set 1
+deref
+sav
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+add
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+mov 2
+deref
+mov 4
+res
+mov -4
+ref
+mov -2
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+deref
+res
+ref
+mov 4
+sav
+mov -4
+deref
+mov -1
+where
+mov 1
+ref
+sav
+mov 4
+res
+mov -4
+while
+   mov 2
+   res
+   mov -2
+   mov 4
+   sav
+   mov -4
+   set 4
+   mov 5
+   sav
+   mov -5
+   mov 4
+   res
+   mov -4
+   mov 5
+   index
+   mov -5
+   mov 6
+   sav
+   mov -6
+   mov 6
+   res
+   mov -6
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 1
+   deref
+   sav
+   ref
+   mov 2
+   deref
+   mov 5
+   res
+   mov -5
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   deref
+   res
+   ref
+   mov -4
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 1
+   deref
+   sav
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   sub
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 2
+   deref
+   mov 5
+   res
+   mov -5
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   deref
+   sav
+   ref
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 2
+   deref
+   mov 4
+   res
+   mov -4
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   res
+   mov -4
+end
+deref
+mov -1
+where
+mov 1
+ref
+sav
+mov 2
+deref
+mov 3
+res
+mov -3
+ref
+mov -2
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+mov 2
+deref
+mov 1
+res
+mov -1
+ref
+mov -2
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+deref
+mov -1
+res
+mov 1
+ref
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+res
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+res
+mov 1
+ref
+deref
+mov 1
+sub
+mov -1
+ref
+deref
+mov -1
+sav
+mov 1
+ref
+deref
+mov -1
+set -1
+add
+sav
+mov 1
+ref
+deref
+mov -1
+res
+gez
+sav
+mov 1
+ref
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+res
+ref
+mov 4
+sav
+mov -4
+deref
+mov -1
+where
+mov 1
+ref
+sav
+mov 4
+res
+mov -4
+while
+   mov 2
+   deref
+   mov 3
+   res
+   mov -3
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   mov 2
+   res
+   mov -2
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 5
+   sav
+   mov -5
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   set 1
+   mov 6
+   sav
+   mov -6
+   mov 5
+   res
+   mov -5
+   mov 6
+   mul
+   mov -6
+   mov 5
+   sav
+   mov -5
+   mov 4
+   res
+   mov -4
+   mov 5
+   index
+   mov -5
+   mov 6
+   sav
+   mov -6
+   mov 6
+   deref
+   res
+   ref
+   mov -6
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   put stdout.int #0
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 2
+   res
+   mov -2
+   mov 4
+   sav
+   mov -4
+   set 3
+   mov 5
+   sav
+   mov -5
+   mov 4
+   res
+   mov -4
+   mov 5
+   index
+   mov -5
+   mov 6
+   sav
+   mov -6
+   mov 6
+   res
+   mov -6
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 1
+   deref
+   sav
+   ref
+   mov 2
+   deref
+   mov 4
+   res
+   mov -4
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   deref
+   res
+   ref
+   mov -4
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   set 1
+   deref
+   sav
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   add
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 2
+   deref
+   mov 4
+   res
+   mov -4
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   deref
+   sav
+   ref
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 2
+   deref
+   mov 3
+   res
+   mov -3
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   mov 2
+   deref
+   mov 1
+   res
+   mov -1
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   res
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   res
+   mov 1
+   ref
+   deref
+   mov 1
+   sub
+   mov -1
+   ref
+   deref
+   mov -1
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   set -1
+   add
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   res
+   gez
+   sav
+   mov 1
+   ref
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   res
+   mov -4
+end
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov -1
+where
+mov 1
+ref
+sav
+deref
+mov -1
+where
+mov 1
+ref
+sav
