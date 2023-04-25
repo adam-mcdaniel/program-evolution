@@ -1,0 +1,287 @@
+fun
+   mov 3
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   mov 2
+   res
+   mov -2
+   mov 3
+   deref
+   sav
+   ref
+   mov -3
+   res
+   mov 2
+   sav
+   mov -2
+   mov 2
+   deref
+   res
+   ref
+   mov -2
+   deref
+   mov 1
+   sav
+   mov -1
+   ref
+   deref
+   mov 1
+   where
+   mov -1
+   ref
+   sav
+   deref
+   res
+   ref
+   mov 4
+   sav
+   mov -4
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 4
+   res
+   mov -4
+   if
+      mov 2
+      deref
+      res
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      mov 2
+      deref
+      res
+      ref
+      mov -2
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      deref
+      sav
+      ref
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      sub
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      set 0
+      mov 4
+      sav
+      mov -4
+      mov 4
+      res
+      mov -4
+      deref
+      mov 1
+      sav
+      mov -1
+      ref
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      deref
+      res
+      ref
+      mov 4
+      sav
+      mov -4
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+      mov 4
+      res
+      mov -4
+      call
+      deref
+      mov -1
+      res
+      mov 1
+      ref
+      deref
+      mul
+      ref
+      deref
+      mov -1
+      sav
+      mov 1
+      ref
+      deref
+      mov -1
+      where
+      mov 1
+      ref
+      sav
+   else
+      deref
+      mov 1
+      where
+      mov -1
+      ref
+      sav
+      set 1
+      deref
+      sav
+      ref
+   end
+   deref
+   res
+   ref
+   mov 2
+   deref
+   sav
+   ref
+   mov -2
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   sav
+   mov 3
+   deref
+   res
+   ref
+   mov -3
+   mov 2
+   sav
+   mov -2
+   mov 3
+   deref
+   mov -1
+   where
+   mov 1
+   ref
+   mov -3
+   mov 3
+   sav
+   mov -3
+   ret
+end
+mov 9
+where
+mov -9
+mov 3
+sav
+mov -3
+mov 3
+deref
+mov 2048
+where
+mov -2048
+ref
+mov -3
+sav
+res
+mov 2
+sav
+mov -2
+deref
+mov 1
+where
+mov -1
+ref
+sav
+get stdin.int #0
+deref
+sav
+ref
+set 0
+mov 4
+sav
+mov -4
+mov 4
+res
+mov -4
+deref
+mov 1
+sav
+mov -1
+ref
+deref
+mov 1
+where
+mov -1
+ref
+sav
+deref
+res
+ref
+mov 4
+sav
+mov -4
+deref
+mov -1
+where
+mov 1
+ref
+sav
+mov 4
+res
+mov -4
+call
+deref
+res
+ref
+put stdout.int #0
+deref
+mov -1
+where
+mov 1
+ref
+sav

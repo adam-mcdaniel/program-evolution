@@ -1,0 +1,12 @@
+proc getint() -> Int = core {
+    next SP
+	get-int [SP]
+} in
+
+proc fact(n: Int) -> Int = {
+    if n
+        (n * fact(n - 1))
+        else 1
+} in
+
+put fact(getint())
