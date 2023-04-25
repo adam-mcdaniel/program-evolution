@@ -1,14 +1,13 @@
 import random
 from copy import deepcopy, copy
 import numpy as np
-from scipy.stats import entropy
 from time import time
 import sys
 import math
 
 
 class Tape:
-    def __init__(self, length=256, blank_symbol=0, head_position=0):
+    def __init__(self, length=10000, blank_symbol=0, head_position=0):
         self.tape = [blank_symbol] * length
         self.head_position = head_position
         self.register = self.blank_symbol = blank_symbol
@@ -82,7 +81,7 @@ class Tape:
     def __len__(self):
         return len(self.tape)
 
-class TuringMachine:
+class SageVirtualMachine:
     def __init__(self, operations, input=None):
         self.operations = operations
         self.input = input
@@ -683,7 +682,7 @@ class Genome:
 
     def evaluate(self, input=None, max_steps=100000):
         tape = Tape()
-        tm = TuringMachine(deepcopy(self.into_operations()), input)
+        tm = SageVirtualMachine(deepcopy(self.into_operations()), input)
         tm.run(tape, steps=max_steps)
         return tm
 
@@ -756,8 +755,6 @@ def sorted_fitness_function(genome):
     # Create several lists of differing lengths, testing sizes 0, 1, ..., 10
     # and see how sorted they are.
     lists = []
-    if genome.get_size() < 100:
-        return 0.0
 
     for i in range(1, 9):
         lists.append([random.randint(0, 100) for _ in range(i)])
@@ -767,16 +764,14 @@ def sorted_fitness_function(genome):
         input_list = [len(l)]
         input_list.extend(l)
 
-        tm = None
         try:
-            tm = genome.evaluate(input_list)
+            tm = genome.evaluate(input_list, max_steps=30000)
             fitness += how_sorted_is_list(tm.output) * 50.0
             l.sort()
             if tm.output != l:
-                # print("Failed to sort", l, tm.output)
                 fitness = 0.0
                 break
-        except:
+        except Exception as e:
             fitness = 0.0
             break
 
@@ -803,9 +798,11 @@ def factorial_fitness_function(genome):
 
 POPULATION_SIZE = 100
 
-def evolve_optimizations(path_to_vm_code, fitness_function):
+def evolve_optimizations(path_to_vm_code, fitness_function, epochs=200):
     print(f'Evolving optimizations for \'{path_to_vm_code}\'...')
-    genomes = [Genome.from_operations(parse(open(path_to_vm_code).read())[0], SAGE_OPERATIONS) for _ in range(POPULATION_SIZE)]
+    ops = parse(open(path_to_vm_code).read())[0]
+    
+    genomes = [Genome.from_operations(ops, SAGE_OPERATIONS) for _ in range(POPULATION_SIZE)]
     old_genome_size = genomes[0].get_size()
     for genome in genomes:
         genome.set_fitness_function(fitness_function)
@@ -815,7 +812,7 @@ def evolve_optimizations(path_to_vm_code, fitness_function):
     print("Printing fitnesses...")
     print(list(map(lambda g: g.fitness(), genomes)))
     try:
-        for epoch in range(100):
+        for epoch in range(epochs):
             print(f"Epoch {epoch}")
 
             genomes = genomes[:POPULATION_SIZE//10]
@@ -849,15 +846,43 @@ def evolve_optimizations(path_to_vm_code, fitness_function):
 if __name__ == '__main__':
     args = sys.argv[1:]
     if len(args) > 0 and args[0] == 'factorial':
-        genome, old_genome_size, new_genome_size = evolve_optimizations('factorial.vm.sg', factorial_fitness_function)
-        print(genome)
+
+        ops, old_genome_size, new_genome_size = evolve_optimizations('factorial.vm.sg', factorial_fitness_function, 300)
+        print(ops)
         print(old_genome_size, new_genome_size)
+        with open('factorial.py', 'w') as f:
+            f.write(f'''from sage import *
+import random
+
+program = {ops}
+
+number = input('Enter a number: ')
+
+tm = SageVirtualMachine(program, [int(number)])
+tape = Tape()
+tm.run(tape, 10000000000000000000)
+print(f'Factorial of {{number}} is {{tm.output[0]}}')
+''')
         exit(0)
     elif len(args) > 0 and args[0] == 'sort':
         # Otherwise, use the default VM code.
-        genome, old_genome_size, new_genome_size = evolve_optimizations('sort.vm.sg', sorted_fitness_function)
-        print(genome)
+        ops, old_genome_size, new_genome_size = evolve_optimizations('sort.vm.sg', sorted_fitness_function, 300)
+        print(ops)
         print(old_genome_size, new_genome_size)
+        print('Creating program from genome...')
+        with open('sort.py', 'w') as f:
+            f.write(f'''from sage import *
+import random
+
+program = {ops}
+
+random_list = [random.randint(0, 100) for _ in range(100)]
+
+tm = SageVirtualMachine(program, [len(random_list)] + random_list)
+tape = Tape()
+tm.run(tape, 10000000000000000000)
+print(tm.output)
+''')
         exit(0)
     else:
         print('Usage: python3 sage.py [factorial|sort]')

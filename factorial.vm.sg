@@ -221,9 +221,9 @@ sav
 mov -3
 mov 3
 deref
-mov 64
+mov 2048
 where
-mov -64
+mov -2048
 ref
 mov -3
 sav
