@@ -310,12 +310,6 @@ tm = TuringMachine([
     Save(),
 ])
 
-# tape = Tape()
-# print(tape, tm.operations)
-# tm.run(tape)
-# print(tape, tm.operations)
-
-
 # Genome looks like a list of numbers like so:
 # [1, 2, 3, [4, 5, [6, 7], [8, 9], 10], 11, 12, [[13, 14, 15], 16, [17]]]
 # This is a list of operations, where the numbers are the indices of the operations.
